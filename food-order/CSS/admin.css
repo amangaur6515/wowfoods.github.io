@@ -1,0 +1,96 @@
+/* 
+    Author: Aman Gaur
+    theme: food order website
+    version: 1.0.0
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;  
+    margin: 0 auto;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+.success{
+    color:#2ed573;
+    font: bold;
+}
+.error{
+    color: red;
+}
+
+/* css for footer*/
+.footer{
+    background-color: #ff6b81;
+    color:white;
+}
+.footer a{
+    text-decoration: none;
+    color:blue;
+    
+}
+.footer a:hover{
+    color: #ff4757;
+}
+.btn-secondary{
+    background-color: #2ed573;
+}
+.tbl-30{
+    width: 100%;
+}
+
+/* css for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff4757 ;
+}
+.menu ul li a:hover{
+    color:green;
+}
+
+/* css for main content*/
+
+.main-content{
+    background-color: #dfe4ea;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin:1% ;
+    padding: 2%;
+    float: left;
+}
+
+/* css for login*/
+
+.login{
+    width: 30%;
+    border: 1px solid grey;
+}
